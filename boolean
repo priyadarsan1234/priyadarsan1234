@@ -1,0 +1,11 @@
+import java.util.*;
+            class And
+            {
+             public static void main(String[] args)
+             {
+              int x=5;
+              boolean b = (5>=4) && (7<x++);
+              System.out.println(b);
+              System.out.println(x);
+             }
+           }
